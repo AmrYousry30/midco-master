@@ -570,6 +570,10 @@ th {
     color: #000
 }
 
+.text-pu {
+    color: #d61b68
+}
+
 .transition {
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
@@ -2680,12 +2684,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .search-course-area {
-    background: url(../img/s-bg.jpg) center;
-    background-size: cover
+    background: url(../img/midco-img/background/img_banner_3.gif) center;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .search-course-area .overlay-bg {
-    background: rgba(4, 9, 30, 0.8)
+    background: rgb(18 31 84 / 76%)
 }
 
 .search-course-area .search-course-left h1 {
@@ -2699,7 +2706,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .search-course-area .search-course-left p {
-    font-size: 12px
+    font-size: 15px;
+    font-weight: 400;
 }
 
 @media (max-width: 991px) {
@@ -2709,9 +2717,9 @@ body.mobile-nav-active #mobile-nav-toggle {
     }
 }
 
-.search-course-area .search-course-right {
-    background: rgba(255, 255, 255, 0.1)
-}
+/*  .search-course-area .search-course-right {
+     background: rgba(255, 255, 255, 0.1) 
+}  */
 
 .search-course-area .search-course-right .form-wrap {
     padding: 0px 40px
@@ -5399,7 +5407,7 @@ dl.toggle.time-line:before {
     height: 2px;
     width: 60px;
     content: "";
-    background-color: #ff5e13;
+    background-color: #063375;
 }
 
 /* line 47, /Applications/MAMP/htdocs/palash/cl/july 2019/190 Pexcon Construction/190 Pexcon Construction html/sass/_about_part.scss */
@@ -5532,7 +5540,7 @@ dl.toggle.time-line:before {
     position: absolute;
     left: 0;
     top: 20px;
-    color: #ff5e13;
+    color: #063375;
 }
 
 @media (max-width: 991px) {
