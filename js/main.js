@@ -425,7 +425,7 @@ $(document).ready(function() {
     intro_carousel.owlCarousel({
         loop:true,
         nav:true,		
-        autoplay:false,
+        autoplay:true,
         dots:false,
         navText: ["<i class='ti-angle-left'></i>","<i class='ti-angle-right'></i>"],
         responsive:{
@@ -442,19 +442,4 @@ $(document).ready(function() {
     });    
 
 /*---------------------*/
-
-/*--------------------------
-scrollUp
----------------------------- */
-	
-	$.scrollUp({
-		scrollText: '<i class="ti-angle-up"></i>',
-		easingType: 'linear',
-		scrollSpeed: 900,
-		animation: 'fade'
-	});
-    
-	
-/*--------------------------*/
-
 });
